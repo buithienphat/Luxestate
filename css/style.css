@@ -365,10 +365,15 @@ input::placeholder {
   padding-bottom: var(--pd-section);
 }
 
+.scap .container {
+  text-align: center;
+}
+
 .scap .scap__list {
   display: flex;
   flex-wrap: wrap;
   gap: 35px 30px;
+  margin-bottom: 50px;
 }
 
 .scap .scap__list .scap__list-item {
@@ -494,7 +499,7 @@ input::placeholder {
 .scwork .scwork__list .scwork__list-item {
   width: calc(100% / 3 - 20px);
   padding: 40px 62px 50px 39px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 1px 0px #000;
   display: flex;
   flex-direction: column;
   align-self: stretch;
